@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'EkkamaiStandard-Light';
+  src: url('fonts/EkkamaiStandard-Light.ttf') format('truetype');
+}
+
+body {
+  font-family: EkkamaiStandard-Light;
+}
+
+.calenda {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 30px;
+  justify-content: center;
+  text-align: center;
+  margin: 0px 150px;
+}
+
+.imgC {
+  border-radius: 50%;
+  margin: 15px ;
+}
+
+
+.article {
+  position: relative;
+}
+
+.block1 {
+  height: auto;
+  width: 80%;
+  object-fit: cover;
+  justify-content: center;
+  text-align: center;
+  margin: 50px 30px;
+  
+}
+
+.test1 {
+  display: flex;
+  justify-content: center;
+  margin: 5px auto;
+  align-items: center;
+  /* margin-bottom: 30px; */
+  /* background: rgb(160, 109, 109); */
+}
+
+.test2 {
+  display: flex;
+  justify-content: center;
+  margin: 5px auto;
+  align-items: center;
+  /* margin-bottom: 30px; */
+  /* background: rgb(160, 109, 109); */
+}
+
+.h1_logo {
+  font-family: 'EkkamaiStandard-Light';
+  vertical-align: baseline;
+  font-size: 300%;
+  color: #2A416A;
+}
+
+.h3 {
+  font-family: 'EkkamaiStandard-Light';
+  vertical-align: baseline;
+  font-size: 150%;
+  color: #2A416A;
+}
