@@ -9,8 +9,8 @@ body {
 
 .calenda {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 10px;
   justify-content: center;
   text-align: center;
   margin: 0px 150px;
